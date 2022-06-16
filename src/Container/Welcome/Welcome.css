@@ -1,0 +1,97 @@
+.welcome_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    height: 86vh;
+}
+
+.welcome_text {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome_text p {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.yellow_line {
+    width: 90%;
+    height: 4px;
+    background-color: #FFF26D;
+}
+
+.mint h5 {
+    font-size: 43px;
+    margin-top: 20px;
+}
+
+.mint .progress_bar {
+    width: 50%;
+    background-color: black;
+    border-radius: 20px;
+    height: 13px;
+    position: relative;
+}
+
+.mint .progress_bar::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 13px;
+    background-color: #FFF26D;
+    border-radius: 20px;
+}
+
+.minting_start h6 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.count_down li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.count_down li span {
+    display: block;
+    text-align: center;
+    border: 1px solid #FFF26D;
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 7px;
+}
+
+.count_down li p {
+    text-align: center;
+    font-size: 8px;
+    margin-right: 6px;
+    margin-top: 3px;
+    line-height: initial;
+}
+
+@media (max-width: 1024px) {
+    .welcome_main {
+        height: auto;
+    }
+
+    .welcome_text p {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .mint h5 {
+        font-size: 25px;
+    }
+
+    .minting_start h6 {
+        font-size: 20px;
+    }
+}

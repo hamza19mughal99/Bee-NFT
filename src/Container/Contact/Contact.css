@@ -1,0 +1,49 @@
+.contact{
+    margin-top: 80px;
+}
+
+.contact_section h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact_info p{
+    color: #fff;
+}
+
+.contact_info p img{
+    margin-right: 10px;
+}
+
+.form-group label{
+    color: #fff !important;
+}
+
+.form-control{
+    background: transparent !important;
+    border: 3px solid #FFC53C;
+}
+
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.585) !important;
+}
+
+input, textarea{
+    color: #fff !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: #FFC53C;
+}
+
+
+@media (max-width: 1024px) {
+    .contact_section h1 {
+        font-size: 35px;
+    }
+
+    .contact_info p {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,51 @@
+.top_header{
+    background: #73dcff;
+}
+
+.top_header p{
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.image1{
+    background-image: url('../../assets/images/main_bg.jpg');
+    background-size: cover;
+}
+
+/* .image2{
+    background-image: url('../../assets/images/06.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+ /* }  */ 
+
+
+.mob_view{
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    .mob_view{
+        display: block;
+        /* background-image: url('../../assets/images/06.jpg');
+        background-size: cover; */
+    }
+    .web_view{
+        display: none;
+    }
+    .top_header p{
+        font-size: 12px;
+    }
+
+    .top_header p .insta{
+        width: 17px;
+    }
+
+    .top_header p .email{
+        width: 20px;
+    }
+
+    .image1{
+        position: relative;
+    }
+}
