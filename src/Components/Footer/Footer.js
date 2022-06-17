@@ -17,110 +17,110 @@ const Footer = () => {
                     as well as exhibiting in a solo capacity, which has solidified my reputation in the art world.
                     If you would like to find out more about my process, get in touch.</p>
                 <div className="web_view">
-                <ul>
-                    <li>
-                        <Link
-                            to="home"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="bio"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Bio
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="benefits"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Benefits
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="contact"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Contact
-                        </Link>
-                    </li>
+                    <ul>
+                        <li>
+                            <Link
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="bio"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Bio
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="benefits"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Benefits
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Contact
+                            </Link>
+                        </li>
 
-                </ul>
+                    </ul>
                 </div>
                 <div className="mob_view">
-                <ul>
-                    <li>
-                        <Link
-                            to="home"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="bio1"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Bio
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="benefits1"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Benefits
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="contact1"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className={'li_link'}
-                            activeClass='li_link'
-                        > Contact
-                        </Link>
-                    </li>
+                    <ul>
+                        <li>
+                            <Link
+                                to="home1"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="bio1"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Bio
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="benefits1"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Benefits
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to="contact1"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'li_link'}
+                                activeClass='li_link'
+                            > Contact
+                            </Link>
+                        </li>
 
-                </ul>
+                    </ul>
                 </div>
-                
+
                 <div>
                     <h5>Social Connect</h5>
                     <div className="text-center">
                         <img className={'footer_icon'} src={facebookIcon} alt='facebook' />
-                        <img className={'footer_icon'} src={twitterIcon} alt='facebook' />
-                        <img className={'footer_icon'} src={linkdlnIcon} alt='facebook' />
+                        <img className={'footer_icon'} src={twitterIcon} alt='twitter' />
+                        <img className={'footer_icon'} src={linkdlnIcon} alt='linkdln' />
                     </div>
                 </div>
             </div>

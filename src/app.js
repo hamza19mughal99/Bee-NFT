@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Container/Home/Home";
 import { ParallaxProvider } from 'react-scroll-parallax';
-// import ImgBg from "./assets/images/06.jpg"
 
 function App() {
   return (

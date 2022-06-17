@@ -4,7 +4,6 @@ import "./Welcome.css";
 import Timer from "../../Components/Countdown/Countdown";
 
 const Welcome = () => {
-
     return (
         <div className="welcome_main">
             <div className="container">
