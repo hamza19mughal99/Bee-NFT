@@ -16,28 +16,27 @@ const Home = () => {
 
     return (
         <>
-
-            <div className='image1'>
-                <div className='top_header'>
-                    <div className='container'>
-                        <p>
-                            <span><img src={InstaIcon} alt='insta' className='mr-3 insta' /></span>
-                            |
-                            <span><img src={emailIcon} alt='email' className='mx-3 email' /></span>
-                            aysemelisolcay@gmail.com
-                        </p>
+            <div className="web_view">
+                <div className='image1'>
+                    <div className='top_header'>
+                        <div className='container'>
+                            <p>
+                                <span><img src={InstaIcon} alt='insta' className='mr-3 insta' /></span>
+                                |
+                                <span><img src={emailIcon} alt='email' className='mx-3 email' /></span>
+                                aysemelisolcay@gmail.com
+                            </p>
+                        </div>
                     </div>
+
+                    <Header />
+
+                    <Element id='home' name='home'>
+                        <Welcome />
+                    </Element>
+
                 </div>
 
-                <Header />
-
-                <Element id='home' name='home'>
-                    <Welcome />
-                </Element>
-
-            </div>
-
-            <div className="web_view">
                 <ParallaxBanner
                     layers={[
                         {
@@ -62,15 +61,29 @@ const Home = () => {
 
                 </ParallaxBanner>
             </div>
+
             <div className="mob_view">
-                <ParallaxBanner
-                    layers={[
-                        {
-                            image: ImgBg,
-                            speed: -10,
-                        },
-                    ]}
-                >
+
+                <div className='image1'>
+                    <div className='top_header'>
+                        <div className='container'>
+                            <p>
+                                <span><img src={InstaIcon} alt='insta' className='mr-3 insta' /></span>
+                                |
+                                <span><img src={emailIcon} alt='email' className='mx-3 email' /></span>
+                                aysemelisolcay@gmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <Header />
+
+                    <Element id='home1' name='home1'>
+                        <Welcome />
+                    </Element>
+
+
+
                     <Element id='bio1' name='bio1'>
                         <Bio />
                     </Element>
@@ -84,9 +97,8 @@ const Home = () => {
                     <div>
                         <Footer />
                     </div>
-                </ParallaxBanner>
+                </div>
             </div>
-
         </>
     )
 }

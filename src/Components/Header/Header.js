@@ -70,7 +70,7 @@ const Header = () => {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ml-auto">
                                 <Link
-                                    to="home"
+                                    to="home1"
                                     spy={true}
                                     smooth={true}
                                     duration={500}
