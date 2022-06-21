@@ -8,8 +8,9 @@
 }
 
 .image1 {
-    background-image: url('../../assets/images/main_bg.jpg');
+    background-image: url('../../assets/images/main_bg.jpg') !important;
     background-size: cover;
+    height: auto !important;
 }
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import WelcomeMain from "../../assets/images/butterfly2.gif";
+import WelcomeMain from "../../assets/images/Bee-Diffusion.gif";
 import "./Welcome.css";
 import Timer from "../../Components/Countdown/Countdown";
 
