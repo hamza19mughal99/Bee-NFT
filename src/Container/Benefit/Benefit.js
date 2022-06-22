@@ -8,14 +8,14 @@ const Benefit = () => {
     AOS.init();
     return (
         <div className="benefit_main">
-            <div className="welcome_benefit_head" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div className="welcome_benefit_head" data-aos="zoom-in-up">
                 <h1>“ <span>Welcome</span> to <br />
                     Elastic Waves <span>Art</span>”</h1>
             </div>
 
             <div className="container benefit">
                 <div className="row align-items-center">
-                    <div className="col-md-7 benefit_text" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div className="col-md-7 benefit_text" data-aos="zoom-in-up">
                         <h1>BENEFITS</h1>
                         <p> My artistic journey started in 2020, also known as the peak of the COVID-19 pandemic. What started as a hobby to avoid the stagnation
                             introduced to our lives later turned into an intense desire to create art.

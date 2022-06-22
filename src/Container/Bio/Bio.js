@@ -12,7 +12,7 @@ const Bio = () => {
                 <div className="col-md-6">
                     <img src={BioImg} alt={'bio-img'}/>
                 </div>
-                <div className="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                <div className="col-md-6" data-aos="zoom-in">
                     <div className="bio_text">
                         <h1>ARTIST BIO</h1>
                         <h6>All About Elastic Waves</h6>

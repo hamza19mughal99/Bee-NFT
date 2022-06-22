@@ -32,7 +32,7 @@ const Home = () => {
                     className='image1'
                     imageUrl={MainBg}
                     perturbance={0.01}
-                    dropRadius={100}
+                    dropRadius={80}
                     interactive={true}
                 >
                     {methods => (
