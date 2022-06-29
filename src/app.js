@@ -5,7 +5,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
-    <ParallaxProvider>
+    <ParallaxProvider >
         <Router>
           <Routes>
             <Route path={'/'} element={<Home />} />

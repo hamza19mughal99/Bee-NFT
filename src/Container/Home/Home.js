@@ -154,9 +154,59 @@ const Home = () => {
 
 
             <ParallaxBanner
+                // layers={[
+                //     {
+                //         image: ImgBg,
+                //          speed: -300,
+                //         // translateY: [0, 15],
+                //         // scale: [1, 1.1, "easeOutCubic"],
+                //         // shouldAlwaysCompleteAnimation: true
+                //     },
+                // ]}
                 layers={[
-                    { image: ImgBg, speed: -450 },
-                ]}
+                    {
+                      image: ImgBg,
+                      amount: 0,
+                      expanded: true,
+                      speed: -490,
+                    },
+                    {
+                      image: ImgBg,
+                      amount: 0.3,
+                      expanded: true,
+                      speed: -490,
+                    },
+                    {
+                      image: ImgBg,
+                      amount: 0.2,
+                      expanded: true,
+                      speed: -490,
+                    },
+                    {
+                      image: ImgBg,
+                      amount: 0.5,
+                      expanded: true,
+                      speed: -490,
+                    },
+                    {
+                      image: ImgBg,
+                      amount: 0.5,
+                      expanded: true,
+                      speed: -490,
+                    },
+                    {
+                      image: ImgBg,
+                      amount: 0.5,
+                      expanded: true,
+                      speed: -490,
+                    },
+                    {
+                      image: ImgBg,
+                      amount: 0.8,
+                      expanded: true,
+                      speed: -490,
+                    },
+                  ]}
                 className="aspect"
             >
                 <div className="section1">
