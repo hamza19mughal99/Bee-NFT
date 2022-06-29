@@ -9,7 +9,7 @@ import InstaIcon from "../../assets/images/instagram_icon.png";
 import emailIcon from "../../assets/images/email_icon.png";
 import './Home.css';
 // import { ParallaxBanner } from 'react-scroll-parallax';
-import ImgBg from "../../assets/images/main_bg3.jpg";
+import ImgBg from "../../assets/images/main_bg4.jpg";
 import { Element } from 'react-scroll'
 // import MainBg from "../../assets/images/main_bg.jpg";
 import WaterWave from 'react-water-wave';
