@@ -1,3 +1,6 @@
+.aspect div {
+    background-size: contain !important;
+}
 .top_header {
     background: #73dcff;
 }

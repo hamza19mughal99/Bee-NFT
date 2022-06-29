@@ -1,12 +1,8 @@
 .utilities_main {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: #fff;
     position: relative;
-    margin: 150px 0;
+    min-height: 100vh;
+    margin-top: 800px;
 }
 
 .utility_img {
@@ -42,6 +38,7 @@
 .utilities_text {
     z-index: 2;
     max-width: 950px;
+    margin: auto;
 }
 
 .utilities_text h5 {

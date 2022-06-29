@@ -9,7 +9,7 @@ const Benefit = () => {
     AOS.init();
     return (
         <div className="benefit_main">
-            <Parallax speed={-20}>
+            <Parallax speed={-20} style={{position: 'relative', zIndex: '2'}}>
                 <div className="welcome_benefit_head" data-aos="zoom-in-up">
                     <h1>“ <span>Welcome</span> to <br />
                         Elastic Waves <span>Art</span>”</h1>

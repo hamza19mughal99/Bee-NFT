@@ -9,7 +9,7 @@ import InstaIcon from "../../assets/images/instagram_icon.png";
 import emailIcon from "../../assets/images/email_icon.png";
 import './Home.css';
 // import { ParallaxBanner } from 'react-scroll-parallax';
-import ImgBg from "../../assets/images/final_bg.png";
+import ImgBg from "../../assets/images/main_bg3.jpg";
 import { Element } from 'react-scroll'
 // import MainBg from "../../assets/images/main_bg.jpg";
 import WaterWave from 'react-water-wave';
@@ -154,32 +154,33 @@ const Home = () => {
 
 
             <ParallaxBanner
-            layers={[
-                { image: ImgBg, speed: -200 },
-              ]}
+                layers={[
+                    { image: ImgBg, speed: -450 },
+                ]}
+                className="aspect"
             >
-            <div className="section1">
-                <Header />
-                <Element id='home' name='home'>
-                    <Welcome />
-                </Element>
-                <Element id='bio' name='bio'>
-                    <Bio />
-                </Element>
-                <PieceArt />
-                <Element id='benefits' name='benefits'>
-                    <Benefit />
-                </Element>
-                <Diversity />
-                {/* <Utilities />
-                <Points /> */}
+                <div className="section1">
+                    <Header />
+                    <Element id='home' name='home'>
+                        <Welcome />
+                    </Element>
+                    <Element id='bio' name='bio'>
+                        <Bio />
+                    </Element>
+                    <PieceArt />
+                    <Element id='benefits' name='benefits'>
+                        <Benefit />
+                    </Element>
+                    <Diversity />
+                    <Utilities />
+                    <Points />
 
-                <FooterBee />
-                <Element id='contact' name='contact'>
-                    <Contact />
-                </Element>
-                <Footer />
-            </div>
+                    <FooterBee />
+                    <Element id='contact' name='contact'>
+                        <Contact />
+                    </Element>
+                    <Footer />
+                </div>
             </ParallaxBanner>
         </>
     )

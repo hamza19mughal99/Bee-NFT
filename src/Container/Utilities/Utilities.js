@@ -19,7 +19,7 @@ const Utilities = () => {
           </div>
 
           <div className='my-2' data-aos='zoom-in'>
-            <h4>Elastic Waves Utilities:</h4>
+            <h4 className='text-center'>Elastic Waves Utilities:</h4>
           </div>
 
           <div className='my-4 utilities_text' data-aos='zoom-in'>
