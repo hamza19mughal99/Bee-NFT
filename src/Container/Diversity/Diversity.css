@@ -1,0 +1,35 @@
+.diversity_text{
+    color: #fff;
+    text-align: center;
+    margin-top: 230px;
+}
+
+.diversity_text p{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.diversity {
+    color: #fff;
+    margin-top: 200px;
+}
+
+.diversity p{
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.diversity_main{
+    position: relative;
+}
+
+.diversity_img{
+    position: absolute;
+    left: -80px;
+    width: 1000px;
+    height: 220px;
+    max-width: 675px;
+    background-size: cover;
+    background-position: center;
+}

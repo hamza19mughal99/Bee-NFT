@@ -1,5 +1,6 @@
 import React from "react";
-import BenefitImg from "../../assets/images/benefits_main.png";
+import BenefitImg from "../../assets/images/3.png";
+import { Parallax } from 'react-scroll-parallax';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./Benefit.css"
@@ -8,31 +9,38 @@ const Benefit = () => {
     AOS.init();
     return (
         <div className="benefit_main">
-            <div className="welcome_benefit_head" data-aos="zoom-in-up">
-                <h1>“ <span>Welcome</span> to <br />
-                    Elastic Waves <span>Art</span>”</h1>
-            </div>
+            <Parallax speed={-20}>
+                <div className="welcome_benefit_head" data-aos="zoom-in-up">
+                    <h1>“ <span>Welcome</span> to <br />
+                        Elastic Waves <span>Art</span>”</h1>
+                </div>
+            </Parallax>
+            <Parallax speed={10}>
+                <img src={BenefitImg} alt='benefit' className="benefit_img" />
+            </Parallax>
 
-            <div className="container benefit">
-                <div className="row align-items-center">
-                    <div className="col-md-7 benefit_text" data-aos="zoom-in-up">
-                        <h1>BENEFITS</h1>
-                        <p> My artistic journey started in 2020, also known as the peak of the COVID-19 pandemic. What started as a hobby to avoid the stagnation
-                            introduced to our lives later turned into an intense desire to create art.
-                            This desire later became a passion for creating digital multimedia pieces.
-                            The pieces seen in this site are my Multimedia Waves Collection.
-                            These pieces have a lengthy creation process as they start as Gel Prints and turn into digital pieces.
-                            Apart from this collection, I do large-scale projects and other variations of printmaking.
-                            This website is a door into my consciousness, my emotions, and thoughts. I hope you enjoy it here.</p>
-                        <button className="get_touch_btn" style={{width: 'fit-content'}}>GET IN TOUCH</button>
-                    </div>
-                    <div className="col-md-5 benefit_img">
-                        <img src={BenefitImg} alt='benefit' />
+            <Parallax speed={-20}>
+                <div className="container benefit">
+                    <div className="row align-items-center">
+                        <div className="col-md-12 benefit_text my-5" data-aos="zoom-in-up">
+
+                            <h1>THE COLLECTION</h1>
+                            <p> The Elastic Waves Collection is very special to me because of its unique creation process.
+                                These art pieces go through a multi-step process. They have painting, gel printing, cutting,
+                                collaging, distortion, and many various other steps in their making. </p>
+
+                        </div>
+                        <div className="col-md-12 benefit_text my-5" data-aos='zoom-in'>
+                            <p className="giveMargin">
+                                I start off with painting on a physical gel medium and taking prints of those paintings.
+                                Later, once I have enough paintings,
+                                I cut those paintings into various forms to form a collage of them.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-        </div >
+            </Parallax>
+        </div>
     )
 }
 

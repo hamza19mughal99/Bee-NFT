@@ -8,46 +8,84 @@
     font-weight: 600;
 }
 
-.bio_text{
+.bio_text,
+.bio_text1 {
     color: #fff;
+    text-align: center;
+    margin: 220px 0;
 }
 
-.bio_main{
-    height: 100vh;
+.bio_main {
+    position: relative;
+}
+
+
+.bio_main .bio_img1 {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 958px;
+    height: 380px;
+    max-width: 490px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bio_main .bio_img2 {
+    position: absolute;
+    right: 150px;
+    bottom: 10%;
+    width: 958px;
+    height: 278px;
+    max-width: 275px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bio_second_text{
+    position: relative;
+    z-index: 2;
+}
+
+.bio_text p,
+.bio_text1 p {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.bio_main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 150px 0;
 }
 
-.bio_text h1{
+.bio_text h1 {
     font-size: 45px;
     font-weight: 600;
 }
 
-.bio_text h6{
+.bio_text h6 {
     font-size: 23px;
     font-weight: 100;
 }
 
 @media (max-width: 767px) {
-    .bio_main .direction{
+    .bio_main .direction {
         flex-direction: column-reverse;
     }
 }
 
 
 @media (max-width: 1024px) {
-    .bio_main{
+    .bio_main {
         height: auto;
         margin-top: 35px;
     }
 
-    .bio_main .direction{
+    .bio_main .direction {
         align-items: center;
     }
 
-    .bio_text h1{
+    .bio_text h1 {
         font-size: 35px;
     }
 
@@ -55,11 +93,11 @@
         font-size: 20px;
     }
 
-    .bio_text p{
+    .bio_text p {
         font-size: 13px;
     }
 
-    .bio_text button{
+    .bio_text button {
         margin-bottom: 30px;
     }
 }

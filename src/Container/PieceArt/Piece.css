@@ -1,0 +1,19 @@
+.piece_text {
+    color: #fff;
+}
+
+.piece_text p{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.pieceArt_text{
+    color: #fff;
+    text-align: center;
+    margin-top: 280px;
+}
+
+.pieceArt_text p{
+    font-size: 26px;
+    font-weight: 300;
+}

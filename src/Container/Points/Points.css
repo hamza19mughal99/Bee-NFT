@@ -1,0 +1,44 @@
+.points_main {
+    color: #fff;
+    position: relative;
+    padding: 100px 0;
+}
+
+.point_img1 {
+    position: absolute;
+    left: 66%;
+    top: 40%;
+    width: 1000px;
+    height: 345px;
+    max-width: 490px;
+    background-size: cover;
+    background-position: center;
+}
+
+.point_img2 {
+    position: absolute;
+    left: -40px;
+    top: -70px;
+    width: 1000px;
+    height: 300px;
+    max-width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.points_main ul {
+    z-index: 2;
+}
+
+.points_main ul li {
+    font-size: 22px;
+    margin-bottom: 10px;
+    max-width: 900px;
+    z-index: 2;
+}
+
+.points_main ul li::marker {
+    color: #d9b71a;
+    font-size: 25px;
+}
