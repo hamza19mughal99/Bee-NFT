@@ -8,17 +8,12 @@ import Footer from "../../Components/Footer/Footer";
 import InstaIcon from "../../assets/images/instagram_icon.png";
 import emailIcon from "../../assets/images/email_icon.png";
 import './Home.css';
-// import { ParallaxBanner } from 'react-scroll-parallax';
-import ImgBg from "../../assets/images/main_bg4.jpg";
 import { Element } from 'react-scroll'
-// import MainBg from "../../assets/images/main_bg.jpg";
-import WaterWave from 'react-water-wave';
 import PieceArt from "../PieceArt/PieceArt";
 import Diversity from "../Diversity/Diversity";
 import Utilities from "../Utilities/Utilities";
 import Points from "../Points/Points";
 import FooterBee from "../FooterBee/FooterBee";
-import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
 
 const Home = () => {
 
@@ -34,204 +29,28 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            {/* <WaterWave
-                    className='image1'
-                    imageUrl={MainBg}
-                    perturbance={0.01}
-                    dropRadius={80}
-                    interactive={true}
-                >
-                    {methods => (
-                        <div>
-                            <Header />
-
-                            <Element id='home' name='home'>
-                                <Welcome />
-                            </Element>
-
-                            <Element id='bio' name='bio'>
-                                <Bio />
-                            </Element>
-                            <Element id='benefits' name='benefits'>
-                                <Benefit />
-                            </Element>
-                            <Element id='contact' name='contact'>
-                                <Contact />
-                            </Element>
-
-                            <div>
-                                <Footer />
-                            </div>
-
-                        </div>
-                    )}
-                </WaterWave> */}
-
-            {/* -------------------------------- parallax --------------------------- */}
-
-            {/* <ParallaxBanner
-                layers={[
-                    {
-                        image: ImgBg,
-                        speed: -100,
-                        scale: [1, 1.2],
-                    },
-                ]}
-            >
+            <div className="section1">
                 <Header />
                 <Element id='home' name='home'>
                     <Welcome />
                 </Element>
-            </ParallaxBanner>
-            <ParallaxBanner
-                layers={[
-                    {
-                        image: ImgBg,
-                        speed: -100,
-                        scale: [1, 1.2],
-                    },
-                ]}
-            >
                 <Element id='bio' name='bio'>
                     <Bio />
                 </Element>
-
-            </ParallaxBanner>
-
-            <ParallaxBanner
-                layers={[
-                    {
-                        image: ImgBg,
-                        speed: -100,
-                        scale: [1, 1.2],
-                    },
-                ]}
-            >
                 <PieceArt />
                 <Element id='benefits' name='benefits'>
                     <Benefit />
                 </Element>
-
-            </ParallaxBanner>
-
-            <ParallaxBanner
-                layers={[
-                    {
-                        image: ImgBg,
-                        speed: -100,
-                        amount: 0.1
-                        // scale: [1, 1.2],
-                    },
-                ]}
-            >
                 <Diversity />
                 <Utilities />
-                
-            </ParallaxBanner>
-            <ParallaxBanner
-                layers={[
-                    {
-                        image: ImgBg,
-                        speed: -100,
-                        amount: 0.1
-                        // scale: [1, 1.2],
-                    },
-                ]}
-            >
                 <Points />
-                <Utilities />
-                
-            </ParallaxBanner>
-            
-            <div className="section1">
+
                 <FooterBee />
                 <Element id='contact' name='contact'>
                     <Contact />
                 </Element>
                 <Footer />
-            </div> */}
-
-
-
-            <ParallaxBanner
-                // layers={[
-                //     {
-                //         image: ImgBg,
-                //          speed: -300,
-                //         // translateY: [0, 15],
-                //         // scale: [1, 1.1, "easeOutCubic"],
-                //         // shouldAlwaysCompleteAnimation: true
-                //     },
-                // ]}
-                layers={[
-                    {
-                      image: ImgBg,
-                      amount: 0,
-                      expanded: true,
-                      speed: -490,
-                    },
-                    {
-                      image: ImgBg,
-                      amount: 0.3,
-                      expanded: true,
-                      speed: -490,
-                    },
-                    {
-                      image: ImgBg,
-                      amount: 0.2,
-                      expanded: true,
-                      speed: -490,
-                    },
-                    {
-                      image: ImgBg,
-                      amount: 0.5,
-                      expanded: true,
-                      speed: -490,
-                    },
-                    {
-                      image: ImgBg,
-                      amount: 0.5,
-                      expanded: true,
-                      speed: -490,
-                    },
-                    {
-                      image: ImgBg,
-                      amount: 0.5,
-                      expanded: true,
-                      speed: -490,
-                    },
-                    {
-                      image: ImgBg,
-                      amount: 0.8,
-                      expanded: true,
-                      speed: -490,
-                    },
-                  ]}
-                className="aspect"
-            >
-                <div className="section1">
-                    <Header />
-                    <Element id='home' name='home'>
-                        <Welcome />
-                    </Element>
-                    <Element id='bio' name='bio'>
-                        <Bio />
-                    </Element>
-                    <PieceArt />
-                    <Element id='benefits' name='benefits'>
-                        <Benefit />
-                    </Element>
-                    <Diversity />
-                    <Utilities />
-                    <Points />
-
-                    <FooterBee />
-                    <Element id='contact' name='contact'>
-                        <Contact />
-                    </Element>
-                    <Footer />
-                </div>
-            </ParallaxBanner>
+            </div>
         </>
     )
 }

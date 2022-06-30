@@ -7,11 +7,11 @@ import { Parallax } from 'react-scroll-parallax';
 const Points = () => {
   return (
     <div className='container points_main'>
-      <Parallax speed={-10}>
+      <Parallax speed={10}>
         <img src={PointImg1} alt='point_img1' className='point_img1' />
       </Parallax>
 
-      <Parallax speed={5}>
+      <Parallax speed={-10} className="main-p-ul">
         <ul data-aos='zoom-in'>
           <li>65 of our holders will be shipped the print of their NFT</li>
           <li>42 of our holders will be shipped the plate of their NFT65 of our holders will
@@ -28,7 +28,7 @@ const Points = () => {
         </ul>
       </Parallax>
 
-      <Parallax speed={-5}>
+      <Parallax speed={10} className="main-p-img">
         <img src={PointImg2} alt='point_img1' className='point_img2' />
       </Parallax>
     </div>

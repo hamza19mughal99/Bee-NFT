@@ -11,7 +11,7 @@ const Header = () => {
         <>
             <div className='web_view'>
                 <Navbar expand="lg">
-                    <Container>
+                    <Container style={{width: '90%'}}>
                         <Navbar.Brand href="#home"><img src={Logo} alt='logo' /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

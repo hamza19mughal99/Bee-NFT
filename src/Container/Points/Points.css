@@ -1,7 +1,7 @@
 .points_main {
     color: #fff;
     position: relative;
-    padding-top: 500px;
+    padding: 150px 0;
 }
 
 .point_img1 {
@@ -32,13 +32,25 @@
 }
 
 .points_main ul li {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 10px;
     max-width: 900px;
     z-index: 2;
+    font-weight: 300;
 }
 
 .points_main ul li::marker {
     color: #d9b71a;
     font-size: 25px;
+}
+
+
+.main-p-img {
+    position: relative;
+    z-index: 0;
+}
+
+.main-p-ul {
+    position: relative;
+    z-index: 1;
 }

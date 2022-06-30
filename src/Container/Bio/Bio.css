@@ -49,13 +49,13 @@
 
 .bio_text p,
 .bio_text1 p {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 300;
 }
 
 .bio_main {
     display: flex;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .bio_text h1 {

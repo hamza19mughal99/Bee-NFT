@@ -1,8 +1,7 @@
 .utilities_main {
     color: #fff;
     position: relative;
-    min-height: 100vh;
-    margin-top: 800px;
+    padding: 200px 0;
 }
 
 .utility_img {
@@ -41,6 +40,18 @@
     margin: auto;
 }
 
-.utilities_text h5 {
+.utilities_text p {
     text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.elastic_utilities h4{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.elastic_utilities{
+    padding-top: 80px;
 }
