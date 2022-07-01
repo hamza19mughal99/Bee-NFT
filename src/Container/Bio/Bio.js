@@ -15,7 +15,8 @@ const Bio = () => {
             </Parallax>
 
             <div className="row">
-                <div className="col-md-12" data-aos="zoom-in">
+                <div className="col-md-12" data-aos="zoom-in" data-aos-offset="600"
+                    data-aos-easing="ease-in-sine">
                     <Parallax speed={-20}>
                         <div className="bio_text">
                             <h1>ARTIST BIO</h1>

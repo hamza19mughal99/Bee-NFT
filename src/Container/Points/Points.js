@@ -12,7 +12,7 @@ const Points = () => {
       </Parallax>
 
       <Parallax speed={-10} className="main-p-ul">
-        <ul data-aos='zoom-in' data-aos-offset="600"
+        <ul data-aos="fade-right" data-aos-offset="600"
                             data-aos-easing="ease-in-sine">
           <li>65 of our holders will be shipped the print of their NFT</li>
           <li>42 of our holders will be shipped the plate of their NFT65 of our holders will

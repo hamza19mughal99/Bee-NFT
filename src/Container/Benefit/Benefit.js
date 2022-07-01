@@ -30,7 +30,7 @@ const Benefit = () => {
                     <div className="row align-items-center">
                         <div className="col-md-7">
                             <Parallax speed={-20}>
-                                <div className="benefit_text" data-aos="zoom-in-up" data-aos-offset="700"
+                                <div className="benefit_text" data-aos="fade-right" data-aos-offset="700"
                     data-aos-easing="ease-in-sine">
                                     <h1>THE COLLECTION</h1>
                                     <p> The Elastic Waves Collection is very special to me because of its unique creation process.
