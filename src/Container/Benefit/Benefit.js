@@ -12,7 +12,8 @@ const Benefit = () => {
     return (
         <div className="benefit_main">
             <Parallax speed={-20} style={{ position: 'relative', zIndex: '2' }}>
-                <div className="welcome_benefit_head" data-aos="zoom-in">
+                <div className="welcome_benefit_head" data-aos="zoom-in" data-aos-offset="500"
+                    data-aos-easing="ease-in-sine">
                     <h1>“ <span>Welcome</span> to <br />
                         Elastic Waves <span>Art</span>”</h1>
                 </div>
@@ -29,7 +30,8 @@ const Benefit = () => {
                     <div className="row align-items-center">
                         <div className="col-md-7">
                             <Parallax speed={-20}>
-                                <div className="benefit_text" data-aos="zoom-in-up">
+                                <div className="benefit_text" data-aos="zoom-in-up" data-aos-offset="700"
+                    data-aos-easing="ease-in-sine">
                                     <h1>THE COLLECTION</h1>
                                     <p> The Elastic Waves Collection is very special to me because of its unique creation process.
                                         These art pieces go through a multi-step process. They have painting, gel printing, cutting,

@@ -21,7 +21,8 @@ const PieceArt = () => {
 
                 <div className="col-md-7">
                     <Parallax speed={-20}>
-                        <div className="piece_text" data-aos='zoom-in'>
+                        <div className="piece_text" data-aos='zoom-in' data-aos-offset="550"
+                            data-aos-easing="ease-in-sine">
                             <p>Within these short years, she has created over 2000 pieces of art and her talents and aspirations bloomed into a form of self-expression. Apart from the Elastic Waves Collection, she has engaged in
                                 various large-scale projects and other
                                 variations of printmaking.</p>

@@ -1,5 +1,5 @@
 .benefit_main {
-    padding: 200px 0;
+    padding: 300px 0;
     position: relative;
 }
 
@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 400px 0;
+    padding: 600px 0;
 }
 
 .benefit_text h1 {

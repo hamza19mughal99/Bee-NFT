@@ -25,7 +25,9 @@ const Bio = () => {
                         </div>
                     </Parallax>
                 </div>
-                <div className="col-md-12 bio_second_text" data-aos='zoom-in'>
+                <div className="col-md-12 bio_second_text" data-aos="fade-right"
+                    data-aos-offset="1000"
+                    data-aos-easing="ease-in-sine">
                     <Parallax speed={-20}>
                         <div className="bio_text1">
                             <p>What started as an interest to avoid the stagnation introduced to her life later
