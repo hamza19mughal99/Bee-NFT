@@ -14,7 +14,7 @@ const Bio = () => {
                 <img src={BioImg1} alt='bio-img' className="bio_img1" />
             </Parallax>
 
-            <div className="row">
+            <div>
                 <div className="col-md-12" data-aos="zoom-in" data-aos-offset="600"
                     data-aos-easing="ease-in-sine">
                     <Parallax speed={-20}>

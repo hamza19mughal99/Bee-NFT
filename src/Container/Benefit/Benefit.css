@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.benefit_img{
+.benefit_img {
     position: absolute;
     left: 40%;
     top: 40%;
@@ -92,5 +92,43 @@
 
     .benefit_text button {
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .benefit_img1 {
+        position: absolute;
+        left: 0;
+        top: 120px;
+        width: 961px;
+        height: 260px;
+        max-width: 360px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .benefit_img {
+        position: absolute;
+        left: 20%;
+        top: -120px;
+        width: 1000px;
+        height: 200px;
+        max-width: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bio_last_img{
+        width: 290px;
+        margin-top: 100px;
+    }
+
+    .benefit_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        padding: 20px;
+        margin: 60px 0;
     }
 }

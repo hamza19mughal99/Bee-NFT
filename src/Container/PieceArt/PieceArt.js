@@ -13,14 +13,14 @@ const PieceArt = () => {
             <div className="row align-items-center">
                 <div className="col-md-5">
                     <Parallax speed={-10}>
-                        <div>
-                            <img src={PieceArtImg} alt={'bio-img'} />
+                        <div className="text-center">
+                            <img src={PieceArtImg} alt={'bio-img'} className='first_img' />
                         </div>
                     </Parallax>
                 </div>
 
                 <div className="col-md-7">
-                    <Parallax speed={-20}>
+                    <Parallax speed={-20} className='overflow_margin'>
                         <div className="piece_text" data-aos='fade-left' data-aos-offset="550"
                             data-aos-easing="ease-in-sine">
                             <p>Within these short years, she has created over 2000 pieces of art and her talents and aspirations bloomed into a form of self-expression. Apart from the Elastic Waves Collection, she has engaged in
@@ -38,16 +38,7 @@ const PieceArt = () => {
                         <img src={BioImg} alt={'bio-img'} />
                     </div>
                 </Parallax>
-
-                <div className="col-md-12" data-aos='zoom-in'>
-                    <Parallax speed={-20}>
-                        <div className="pieceArt_text" data-aos='zoom-in'>
-
-                        </div>
-                    </Parallax>
-                </div>
             </div>
-
         </div>
     )
 }

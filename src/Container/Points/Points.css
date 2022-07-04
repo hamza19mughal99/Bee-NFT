@@ -54,3 +54,36 @@
     position: relative;
     z-index: 1;
 }
+
+@media (max-width: 767px) {
+    .point_img1 {
+        position: absolute;
+        left: 0;
+        top: 42%;
+        width: 1000px;
+        height: 260px;
+        max-width: 360px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .point_img2 {
+        position: absolute;
+        left: 0px;
+        top: -70px;
+        width: 1000px;
+        height: 250px;
+        max-width: 220px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .points_main ul {
+        z-index: 2;
+        padding: 40px;
+    }
+
+    .points_main ul li{
+        font-size: 16px;
+    }
+}

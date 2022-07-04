@@ -46,8 +46,8 @@ const Benefit = () => {
                         </div>
                         <div className="col-md-5">
                             <Parallax speed={-20}>
-                                <div>
-                                    <img src={benefitMain} alt={'bio-img'} />
+                                <div className="text-center">
+                                    <img src={benefitMain} alt={'bio-img'} className='bio_last_img'/>
                                 </div>
                             </Parallax>
                         </div>

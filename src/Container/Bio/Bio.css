@@ -42,7 +42,7 @@
     background-position: center;
 }
 
-.bio_second_text{
+.bio_second_text {
     position: relative;
     z-index: 2;
     padding-top: 350px;
@@ -73,6 +73,23 @@
     .bio_main .direction {
         flex-direction: column-reverse;
     }
+
+    .bio_main .bio_img1 {
+        width: 360px;
+        height: 260px;
+    }
+
+    .bio_main .bio_img2 {
+        right: 90px;
+        height: 230px;
+        max-width: 210px;
+    }
+
+    .bio_text p, .bio_text1 p {
+        font-size: 17px;
+        font-weight: 300;
+        padding: 20px;
+    }
 }
 
 
@@ -95,7 +112,7 @@
     }
 
     .bio_text p {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .bio_text button {

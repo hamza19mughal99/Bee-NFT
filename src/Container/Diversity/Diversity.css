@@ -1,8 +1,8 @@
-.diversity_text{
+.diversity_text {
     color: #fff;
 }
 
-.diversity_text p{
+.diversity_text p {
     font-size: 25px;
     font-weight: 300;
 }
@@ -11,17 +11,16 @@
     color: #fff;
 }
 
-.diversity p{
+.diversity p {
     font-size: 25px;
     font-weight: 300;
 }
 
-.diversity_main{
+.diversity_main {
     position: relative;
-    padding: 0 0 100px 0;
 }
 
-.diversity_img{
+.diversity_img {
     position: absolute;
     right: -80px;
     width: 1000px;
@@ -29,4 +28,37 @@
     max-width: 675px;
     background-size: cover;
     background-position: center;
+}
+
+
+@media (max-width: 767px) {
+    .diversity_img {
+        position: absolute;
+        right: 10px;
+        width: 1000px;
+        height: 148px;
+        top: -78px;
+        max-width: 356px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .diver_col_img{
+        width: 320px;
+        margin-bottom: 170px;
+    }
+
+    .benefit {
+        padding: 400px 0 550px 0;
+    }
+
+    .diversity p {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 20px;
+    }
+
+    .give_overflow{
+        overflow: hidden !important;
+    }
 }
