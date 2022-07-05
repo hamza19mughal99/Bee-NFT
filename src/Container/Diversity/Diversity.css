@@ -59,6 +59,6 @@
     }
 
     .give_overflow{
-        overflow: hidden !important;
+        margin-top: 150px;
     }
 }

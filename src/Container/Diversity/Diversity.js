@@ -26,7 +26,7 @@ const Diversity = () => {
 
                 <div className="col-md-7 give_overflow">
                     <Parallax speed={-20}>
-                        <div className="diversity diversity_text" data-aos='zoom-in' data-aos-offset="700"
+                        <div className="diversity diversity_text" data-aos='zoom-in' data-aos-offset="600"
                             data-aos-easing="ease-in-sine">
                             <p>This allows for diversity in texture as well as coloring. For this specific project, I used 35
                                 different gel prints. This means that every individual color seen on an NFT was a result of
