@@ -48,3 +48,39 @@
         position: relative;
     }
 }
+
+
+.box-c{
+  opacity: 0;
+}
+
+.box-d{
+  opacity: 0;
+}
+
+.piece{
+    opacity: 0;
+}
+
+.bene_head{
+    opacity: 0;
+}
+
+.bene_text{
+    opacity: 0;
+}
+
+.divi{
+    opacity: 0;
+}
+
+.utili{
+    opacity: 0;
+}
+
+.poi{
+    opacity: 0;
+}
+
+/* --------------------- */
+

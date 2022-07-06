@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import BenefitImg from "../../assets/images/3.png";
 import benefitMain from "../../assets/images/nft3.png";
 import { Parallax } from 'react-scroll-parallax';
@@ -7,53 +7,89 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./Benefit.css"
 
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
+
 const Benefit = () => {
     AOS.init();
+
+    useEffect(() => {
+
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: ".bene_head",
+                pin: true,
+                start: "center center",
+                end: "+=600",
+            }
+        })
+            .to(".bene_head", {
+                opacity: 1,
+                duration: 0.5
+            })
+
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: ".bene_text",
+                pin: true,
+                start: "center center",
+                end: "+=600",
+            }
+        })
+            .to(".bene_text", {
+                opacity: 1,
+                duration: 0.5
+            })
+    })
+
+
     return (
         <div className="benefit_main">
-            <Parallax speed={-20} style={{ position: 'relative', zIndex: '2' }}>
-                <div className="welcome_benefit_head" data-aos="zoom-in" data-aos-offset="500"
-                    data-aos-easing="ease-in-sine">
-                    <h1>“ <span>Welcome</span> to <br />
-                        Elastic Waves <span>Art</span>”</h1>
-                </div>
-            </Parallax>
-            <Parallax speed={-10}>
-                <img src={BioImg1} alt='bio-img' className="benefit_img1" />
-            </Parallax>
-            <Parallax speed={10}>
-                <img src={BenefitImg} alt='benefit' className="benefit_img" />
-            </Parallax>
+            {/* <Parallax speed={-20} style={{ position: 'relative', zIndex: '2' }}> */}
+            <div className="welcome_benefit_head">
+                <h1 className="bene_head">“ <span>Welcome</span> to <br />
+                    Elastic Waves <span>Art</span>”</h1>
+            </div>
+            {/* </Parallax> */}
+            {/* <Parallax speed={-10}> */}
+            <img src={BioImg1} alt='bio-img' className="benefit_img1" />
+            {/* </Parallax> */}
+            {/* <Parallax speed={10}> */}
+            <img src={BenefitImg} alt='benefit' className="benefit_img" />
+            {/* </Parallax> */}
 
-            <Parallax speed={-20}>
-                <div className="container benefit">
-                    <div className="row align-items-center">
-                        <div className="col-md-7">
-                            <Parallax speed={-20}>
-                                <div className="benefit_text" data-aos="fade-right" data-aos-offset="700"
-                    data-aos-easing="ease-in-sine">
-                                    <h1>THE COLLECTION</h1>
-                                    <p> The Elastic Waves Collection is very special to me because of its unique creation process.
-                                        These art pieces go through a multi-step process. They have painting, gel printing, cutting,
-                                        collaging, distortion, and many various other steps in their making. </p>
-                                    <p>
-                                        I start off with painting on a physical gel medium and taking prints of those paintings.
-                                        Later, once I have enough paintings,
-                                        I cut those paintings into various forms to form a collage of them.
-                                    </p>
-                                </div>
-                            </Parallax>
+            {/* <Parallax speed={-20}> */}
+            <div className="container benefit">
+                <div className="row align-items-center">
+                    <div className="col-md-7">
+                        {/* <Parallax speed={-20}> */}
+                        <div className="benefit_text bene_text">
+                            <h1>THE COLLECTION</h1>
+                            <p> The Elastic Waves Collection is very special to me because of its unique creation process.
+                                These art pieces go through a multi-step process. They have painting, gel printing, cutting,
+                                collaging, distortion, and many various other steps in their making. </p>
+                            <p>
+                                I start off with painting on a physical gel medium and taking prints of those paintings.
+                                Later, once I have enough paintings,
+                                I cut those paintings into various forms to form a collage of them.
+                            </p>
                         </div>
-                        <div className="col-md-5">
-                            <Parallax speed={-20}>
-                                <div className="text-center">
-                                    <img src={benefitMain} alt={'bio-img'} className='bio_last_img'/>
-                                </div>
-                            </Parallax>
+                        {/* </Parallax> */}
+                    </div>
+                    <div className="col-md-5">
+                        {/* <Parallax speed={-20}> */}
+                        <div className="text-center">
+                            <img src={benefitMain} alt={'bio-img'} className='bio_last_img' />
                         </div>
+                        {/* </Parallax> */}
                     </div>
                 </div>
-            </Parallax>
+            </div>
+            {/* </Parallax> */}
         </div>
     )
 }

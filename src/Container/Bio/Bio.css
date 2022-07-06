@@ -12,7 +12,7 @@
 .bio_text1 {
     color: #fff;
     text-align: center;
-    margin: 220px 0;
+    margin: 100px 0;
 }
 
 .bio_main {
@@ -34,7 +34,7 @@
 .bio_main .bio_img2 {
     position: absolute;
     right: 150px;
-    bottom: 10%;
+    bottom: 15%;
     width: 958px;
     height: 278px;
     max-width: 275px;
@@ -45,7 +45,7 @@
 .bio_second_text {
     position: relative;
     z-index: 2;
-    padding-top: 350px;
+    padding-top: 150px;
 }
 
 .bio_text p,
@@ -68,6 +68,7 @@
     font-size: 23px;
     font-weight: 100;
 }
+
 
 @media (max-width: 767px) {
     .bio_main .direction {
