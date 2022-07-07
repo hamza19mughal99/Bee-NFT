@@ -60,7 +60,7 @@ const Contact = () => {
                                             <textarea className="form-control" placeholder="Write your Message Here" rows="5" />
                                         </div>
                                     </div>
-                                    <div className="col-md-12">
+                                    <div className="col-md-12 mt-3">
                                         <div className="d-flex justify-content-end">
                                             <button className="get_touch_btn">Send Message</button>
                                         </div>
