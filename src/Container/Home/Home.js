@@ -22,9 +22,9 @@ const Home = () => {
             <div className='top_header'>
                 <div className='container'>
                     <p>
-                        <span><img src={InstaIcon} alt='insta' className='mr-3 insta' /></span>
+                        <span><img src={InstaIcon} alt='insta' className='insta' /></span>
                         |
-                        <span><img src={emailIcon} alt='email' className='mx-3 email' /></span>
+                        <span><img src={emailIcon} alt='email' className='mx-2 email' /></span>
                         aysemelisolcay@gmail.com
                     </p>
                 </div>
@@ -41,11 +41,12 @@ const Home = () => {
                 <Element id='benefits' name='benefits'>
                     <Benefit />
                 </Element>
+
                 <Diversity />
                 <Utilities />
                 <Points />
-
                 <FooterBee />
+                
                 <Element id='contact' name='contact'>
                     <Contact />
                 </Element>

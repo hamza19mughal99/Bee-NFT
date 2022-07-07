@@ -47,6 +47,7 @@
 
 .li_link{
     color: #fff !important;
+    text-decoration: none;
 }
 .li_link:hover{
     text-decoration: none !important;

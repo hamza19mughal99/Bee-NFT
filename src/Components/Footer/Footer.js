@@ -1,5 +1,4 @@
 import React from "react";
-
 import twitterIcon from "../../assets/images/twitter_icon.png";
 import facebookIcon from "../../assets/images/facebook_icon.png";
 import linkdlnIcon from "../../assets/images/linkdln_icon.png";
@@ -12,104 +11,53 @@ const Footer = () => {
     return (
         <div className="footer_main">
             <div className="footer_text">
-                <div className="web_view">
-                    <ul>
-                        <li>
-                            <Link
-                                to="home"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Home
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="bio"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Bio
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="benefits"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Benefits
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="contact"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Contact
-                            </Link>
-                        </li>
+                <ul>
+                    <li>
+                        <Link
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className={'li_link'}
+                            activeClass='li_link'
+                        > Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="bio"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className={'li_link'}
+                            activeClass='li_link'
+                        > Bio
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="benefits"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className={'li_link'}
+                            activeClass='li_link'
+                        > Benefits
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className={'li_link'}
+                            activeClass='li_link'
+                        > Contact
+                        </Link>
+                    </li>
 
-                    </ul>
-                </div>
-                <div className="mob_view">
-                    <ul>
-                        <li>
-                            <Link
-                                to="home1"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Home
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="bio1"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Bio
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="benefits1"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Benefits
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="contact1"
-                                spy={true}
-                                smooth={true}
-                                duration={500}
-                                className={'li_link'}
-                                activeClass='li_link'
-                            > Contact
-                            </Link>
-                        </li>
-
-                    </ul>
-                </div>
+                </ul>
 
                 <div>
                     <h5>Social Connect</h5>

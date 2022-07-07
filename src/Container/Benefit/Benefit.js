@@ -1,22 +1,14 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import BenefitImg from "../../assets/images/3.png";
 import benefitMain from "../../assets/images/nft3.png";
-import { Parallax } from 'react-scroll-parallax';
 import BioImg1 from "../../assets/images/1.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import "./Benefit.css"
-
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(ScrollToPlugin);
 
 const Benefit = () => {
-    AOS.init();
-
     useEffect(() => {
 
         gsap.timeline({
@@ -46,27 +38,25 @@ const Benefit = () => {
             })
     })
 
-
     return (
         <div className="benefit_main">
-            {/* <Parallax speed={-20} style={{ position: 'relative', zIndex: '2' }}> */}
             <div className="welcome_benefit_head">
                 <h1 className="bene_head">“ <span>Welcome</span> to <br />
                     Elastic Waves <span>Art</span>”</h1>
             </div>
-            {/* </Parallax> */}
-            {/* <Parallax speed={-10}> */}
-            <img src={BioImg1} alt='bio-img' className="benefit_img1" />
-            {/* </Parallax> */}
-            {/* <Parallax speed={10}> */}
-            <img src={BenefitImg} alt='benefit' className="benefit_img" />
-            {/* </Parallax> */}
 
-            {/* <Parallax speed={-20}> */}
+            <div>
+                <img src={BioImg1} alt='bio-img' className="benefit_img1" />
+            </div>
+
+            <div>
+                <img src={BenefitImg} alt='benefit' className="benefit_img" />
+            </div>
+
+
             <div className="container benefit">
                 <div className="row align-items-center">
                     <div className="col-md-7">
-                        {/* <Parallax speed={-20}> */}
                         <div className="benefit_text bene_text">
                             <h1>THE COLLECTION</h1>
                             <p> The Elastic Waves Collection is very special to me because of its unique creation process.
@@ -78,18 +68,14 @@ const Benefit = () => {
                                 I cut those paintings into various forms to form a collage of them.
                             </p>
                         </div>
-                        {/* </Parallax> */}
                     </div>
                     <div className="col-md-5">
-                        {/* <Parallax speed={-20}> */}
                         <div className="text-center">
                             <img src={benefitMain} alt={'bio-img'} className='bio_last_img' />
                         </div>
-                        {/* </Parallax> */}
                     </div>
                 </div>
             </div>
-            {/* </Parallax> */}
         </div>
     )
 }

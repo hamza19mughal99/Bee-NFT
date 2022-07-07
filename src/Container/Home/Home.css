@@ -9,25 +9,14 @@
     padding: 10px 0;
 }
 
+.top_header p span:first-child{
+    margin-right: 10px;
+}
+
 .section1{
     background-image: url('../../assets/images/final_bg.png');
     background-size: cover;
     background-attachment: fixed;
-}
-
-
-.mob_view {
-    display: none;
-}
-
-@media (max-width: 1000px) {
-    .mob_view {
-        display: block;
-    }
-
-    .web_view {
-        display: none;
-    }
 }
 
 @media (max-width: 767px) {
