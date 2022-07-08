@@ -21,6 +21,10 @@
 
 @media (max-width: 767px) {
 
+    .loader{
+        left: 44% !important;
+    }
+
     .top_header p {
         font-size: 12px;
     }
