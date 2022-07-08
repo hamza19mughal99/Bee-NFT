@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Logo from "../../assets/images/main_logo.png";
 import * as Scroll from 'react-scroll';
@@ -7,8 +7,22 @@ let Link = Scroll.Link;
 
 const Header = () => {
 
+    useEffect(() => {
+        window.addEventListener('scroll', isSticky);
+        return () => {
+            window.removeEventListener('scroll', isSticky);
+        };
+    });
+
+    const isSticky = (e) => {
+        const header = document.querySelector('.header-section');
+        const scrollTop = window.scrollY;
+        scrollTop >= 50 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+    };
+
     return (
-        <Navbar expand="lg">
+        <header className="header-section d-xl-block">
+              <Navbar expand="lg">
             <Container style={{ width: '90%' }}>
                 <Navbar.Brand href="#home"><img src={Logo} alt='logo' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -59,6 +73,7 @@ const Header = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+         </header>
     );
 };
 export default Header;
