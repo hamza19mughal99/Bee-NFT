@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Header from "../../Components/Header/Header";
 import Welcome from "../Welcome/Welcome";
 import Bio from "../Bio/Bio";
@@ -16,6 +16,26 @@ import Points from "../Points/Points";
 import FooterBee from "../FooterBee/FooterBee";
 
 const Home = () => {
+
+    const [isLoading, setLoading] = useState(true);
+
+    function fakeRequest() {
+        return new Promise(resolve => setTimeout(() => resolve(), 3000));
+    }
+
+    useEffect(() => {
+        fakeRequest().then(() => {
+            const el = document.querySelector(".loader-container");
+            if (el) {
+                el.remove();
+                setLoading(!isLoading);
+            }
+        });
+    }, []);
+
+    if (isLoading) {
+        return null;
+    }
 
     return (
         <>
@@ -46,7 +66,7 @@ const Home = () => {
                 <Utilities />
                 <Points />
                 <FooterBee />
-                
+
                 <Element id='contact' name='contact'>
                     <Contact />
                 </Element>
