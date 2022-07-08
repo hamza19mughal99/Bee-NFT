@@ -79,6 +79,7 @@
 @media (max-width: 1024px) {
     .welcome_main {
         height: auto;
+        padding-top: 60px;
     }
 
     .welcome_text p {

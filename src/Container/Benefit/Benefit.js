@@ -26,13 +26,13 @@ const Benefit = () => {
 
         gsap.timeline({
             scrollTrigger: {
-                trigger: ".bene_text",
+                trigger: ".bene",
                 pin: true,
                 start: "center center",
                 end: "+=600",
             }
         })
-            .to(".bene_text", {
+            .to(".bene", {
                 opacity: 1,
                 duration: 0.5
             })
@@ -53,11 +53,10 @@ const Benefit = () => {
                 <img src={BenefitImg} alt='benefit' className="benefit_img" />
             </div>
 
-
             <div className="container benefit">
                 <div className="row align-items-center">
-                    <div className="col-md-7">
-                        <div className="benefit_text bene_text">
+                    <div className="col-md-7" >
+                        <div className="benefit_text bene">
                             <h1>THE COLLECTION</h1>
                             <p> The Elastic Waves Collection is very special to me because of its unique creation process.
                                 These art pieces go through a multi-step process. They have painting, gel printing, cutting,
