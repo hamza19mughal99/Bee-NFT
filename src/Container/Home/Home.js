@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../../Components/Header/Header";
 import Welcome from "../Welcome/Welcome";
 import Bio from "../Bio/Bio";
@@ -17,28 +17,8 @@ import FooterBee from "../FooterBee/FooterBee";
 
 const Home = () => {
 
-    const [isLoading, setLoading] = useState(true);
-
-    function fakeRequest() {
-        return new Promise(resolve => setTimeout(() => resolve(), 3000));
-    }
-
-    useEffect(() => {
-        fakeRequest().then(() => {
-            const el = document.querySelector(".loader-container");
-            if (el) {
-                el.remove();
-                setLoading(!isLoading);
-            }
-        });
-    }, []);
-
-    if (isLoading) {
-        return null;
-    }
-
     return (
-        <>
+        <React.Fragment>
             <div className='top_header'>
                 <div className='container'>
                     <p>
@@ -72,7 +52,7 @@ const Home = () => {
                 </Element>
                 <Footer />
             </div>
-        </>
+        </React.Fragment>
     )
 }
 export default Home;
