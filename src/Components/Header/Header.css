@@ -4,6 +4,11 @@
         width: 100% !important;
         z-index: 99 !important;
     }
+
+    div#basic-navbar-nav {
+        background: #000000d6 !important;
+        padding: 12px !important;
+    }
 }
 
 .navbar-brand img {
