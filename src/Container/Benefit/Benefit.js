@@ -45,27 +45,29 @@ const Benefit = () => {
                     Elastic Waves <span>Art</span>”</h1>
             </div>
 
-            <div style={{zIndex: '2'}}>
+            <div style={{ zIndex: '2' }}>
                 <img src={BioImg1} alt='bio-img' className="benefit_img1" />
             </div>
 
-            <div style={{zIndex: '2'}}>
+            <div style={{ zIndex: '2' }}>
                 <img src={BenefitImg} alt='benefit' className="benefit_img" />
             </div>
 
             <div className="container benefit">
                 <div className="row align-items-center">
                     <div className="col-md-7" >
-                        <div className="benefit_text bene">
-                            <h1>THE COLLECTION</h1>
-                            <p> The Elastic Waves Collection is very special to me because of its unique creation process.
-                                These art pieces go through a multi-step process. They have painting, gel printing, cutting,
-                                collaging, distortion, and many various other steps in their making. </p>
-                            <p>
-                                I start off with painting on a physical gel medium and taking prints of those paintings.
-                                Later, once I have enough paintings,
-                                I cut those paintings into various forms to form a collage of them.
-                            </p>
+                        <div className="benefit_text">
+                            <div className="bene">
+                                <h1>THE COLLECTION</h1>
+                                <p> The Elastic Waves Collection is very special to me because of its unique creation process.
+                                    These art pieces go through a multi-step process. They have painting, gel printing, cutting,
+                                    collaging, distortion, and many various other steps in their making. </p>
+                                <p>
+                                    I start off with painting on a physical gel medium and taking prints of those paintings.
+                                    Later, once I have enough paintings,
+                                    I cut those paintings into various forms to form a collage of them.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-5">

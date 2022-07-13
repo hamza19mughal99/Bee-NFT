@@ -34,14 +34,16 @@ const PieceArt = () => {
                 </div>
 
                 <div className="col-md-7">
-                    <div className="piece_text piece">
-                        <p>Within these short years, she has created over 2000 pieces of art and her talents and aspirations bloomed into a form of self-expression. Apart from the Elastic Waves Collection, she has engaged in
-                            various large-scale projects and other
-                            variations of printmaking.</p>
-                        <p>She has been lucky enough to have participated in many collaborative projects,
-                            as well as exhibiting in a solo capacity, which has solidified her reputation in the art world.
-                            If you would like to find out more about my process, get in touch.</p>
-                        <button className='get_touch_btn'>GET IN TOUCH</button>
+                    <div className="piece_text">
+                        <div className="piece">
+                            <p>Within these short years, she has created over 2000 pieces of art and her talents and aspirations bloomed into a form of self-expression. Apart from the Elastic Waves Collection, she has engaged in
+                                various large-scale projects and other
+                                variations of printmaking.</p>
+                            <p>She has been lucky enough to have participated in many collaborative projects,
+                                as well as exhibiting in a solo capacity, which has solidified her reputation in the art world.
+                                If you would like to find out more about my process, get in touch.</p>
+                            <button className='get_touch_btn'>GET IN TOUCH</button>
+                        </div>
                     </div>
                 </div>
                 <div className="piece_bg">
