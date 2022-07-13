@@ -76,6 +76,7 @@
     .welcome_benefit_head h1 {
         font-size: 37px;
         margin-top: 30px;
+        z-index: 1;
     }
 
     .benefit_text h1 {

@@ -57,7 +57,7 @@ body .loading-overlay {
     color: white;
     overflow: hidden;
     justify-content: center;
-    z-index: 100;
+    z-index: 10000000;
     width: 100%;
     animation: animatebg 10s linear infinite;
 }

@@ -35,12 +35,6 @@ const App = () => {
     return (
         <React.Fragment>
             <div class="animation">
-                {/* <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1> */}
                 <div className="loader"></div>
             </div>
 

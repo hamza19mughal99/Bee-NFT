@@ -45,11 +45,11 @@ const Benefit = () => {
                     Elastic Waves <span>Art</span>”</h1>
             </div>
 
-            <div>
+            <div style={{zIndex: '2'}}>
                 <img src={BioImg1} alt='bio-img' className="benefit_img1" />
             </div>
 
-            <div>
+            <div style={{zIndex: '2'}}>
                 <img src={BenefitImg} alt='benefit' className="benefit_img" />
             </div>
 
