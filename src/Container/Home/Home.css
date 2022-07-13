@@ -93,6 +93,10 @@ div#root {
     opacity: 0;
 }
 
+.bene{
+    opacity: 0;
+}
+
 .bene_head {
     opacity: 0;
 }
