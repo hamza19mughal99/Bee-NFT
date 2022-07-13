@@ -18,7 +18,11 @@ const App = () => {
             ease: "power4.out"
         });
         timeline.to(".animation", {
-            zIndex: -10
+            zIndex: -10,
+            opacity: 0,
+            visibility: "hidden",
+            height: 0,
+            width: 0,
         });
         // timeline.from(".home", {
         //     delay: .5,

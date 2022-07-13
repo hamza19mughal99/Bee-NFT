@@ -53,7 +53,7 @@ body .loading-overlay {
     display: flex;
     align-items: center;
     white-space: nowrap;
-    background-color: #00212c;
+    background-color: #fff;
     color: white;
     overflow: hidden;
     justify-content: center;
