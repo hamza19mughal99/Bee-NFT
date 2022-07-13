@@ -22,7 +22,7 @@ const Points = () => {
         opacity: 1,
         duration: 0.5
       })
-  })
+  },[])
 
   return (
     <div className='container points_main'>

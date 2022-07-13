@@ -23,8 +23,7 @@ const PieceArt = () => {
                 opacity: 1,
                 duration: 0.5
             })
-    })
-
+    },[])
 
     return (
         <div className="container piece_art">

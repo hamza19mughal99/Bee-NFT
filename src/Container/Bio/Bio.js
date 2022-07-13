@@ -17,13 +17,14 @@ const Bio = () => {
                 pin: true,
                 start: "center center",
                 end: "+=600",
+                onLeave: () => ScrollTrigger.clearScrollMemory()
             }
         })
             .to(".box-c", {
                 opacity: 1,
                 duration: 0.5
             })
-    })
+    }, [])
 
     useEffect(() => {
         gsap.timeline({
@@ -32,6 +33,7 @@ const Bio = () => {
                 pin: true,
                 start: "center center",
                 end: "+=600",
+                onLeave: () => ScrollTrigger.clearScrollMemory()
             }
         })
             .to(".box-d", {

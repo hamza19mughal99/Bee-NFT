@@ -24,14 +24,6 @@ const App = () => {
             height: 0,
             width: 0,
         });
-        // timeline.from(".home", {
-        //     delay: .5,
-        //     duration: .8,
-        //     skewY: 10,
-        //     y: 100,
-        //     x: -199,
-        //     opacity: 0
-        // })
     },[])
 
     return (

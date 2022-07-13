@@ -17,13 +17,14 @@ const Diversity = () => {
                 pin: true,
                 start: "center center",
                 end: "+=600",
+                onLeave: () =>ScrollTrigger.clearScrollMemory()
             }
         })
             .to(".divi", {
                 opacity: 1,
                 duration: 0.5
             })
-    })
+    },[])
 
     return (
         <div className="container diversity_main">
