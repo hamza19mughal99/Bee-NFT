@@ -49,11 +49,13 @@ const Bio = () => {
 
             <div>
                 <div className="col-md-12" >
-                    <div className="bio_text box-c">
-                        <h1>ARTIST BIO</h1>
-                        <p>Melis Olcay is a Turkish artist from Istanbul, Turkey.
-                            Although she always had an immense interest in art, her artistic journey didn’t
-                            start until 2020, also known as the peak of the COVID-19 pandemic. </p>
+                    <div className="bio_text">
+                        <div className="box-c">
+                            <h1>ARTIST BIO</h1>
+                            <p>Melis Olcay is a Turkish artist from Istanbul, Turkey.
+                                Although she always had an immense interest in art, her artistic journey didn’t
+                                start until 2020, also known as the peak of the COVID-19 pandemic. </p>
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-12 bio_second_text" >
