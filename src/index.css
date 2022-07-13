@@ -12,6 +12,8 @@ html{
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #11ccf8;
+    min-height: 10000px;
 }
 
 img{

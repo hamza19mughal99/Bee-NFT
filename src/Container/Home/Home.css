@@ -56,7 +56,7 @@ div#root {
         z-index: -1;
         bottom: 0;
         padding-bottom: 500px;
-        background-color: #73dcff;
+        /* background-color: #73dcff; */
     }
 
     .loader {
