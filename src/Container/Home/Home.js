@@ -5,7 +5,8 @@ import Bio from "../Bio/Bio";
 import Benefit from "../Benefit/Benefit";
 import Contact from "../Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
-
+import InstaIcon from "../../assets/images/instagram_icon.png";
+import emailIcon from "../../assets/images/email_icon.png";
 import './Home.css';
 import { Element } from 'react-scroll'
 import PieceArt from "../PieceArt/PieceArt";
