@@ -20,7 +20,7 @@ img {
     max-width: 100%;
 }
 
-body .loading-overlay.show {
+/* body .loading-overlay.show {
     opacity: 1;
 }
 
@@ -41,7 +41,7 @@ body .loading-overlay {
     top: 0;
     width: 100%;
     z-index: 1000002;
-}
+} */
 
 /* ----------------------------------  */
 
