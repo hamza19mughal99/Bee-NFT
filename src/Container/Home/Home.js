@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Header from "../../Components/Header/Header";
 import Welcome from "../Welcome/Welcome";
 import Bio from "../Bio/Bio";
@@ -29,7 +29,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div className="section1">
+            <div>
                 <Header />
                 <Element id='home' name='home'>
                     <Welcome />
@@ -52,6 +52,7 @@ const Home = () => {
                 </Element>
                 <Footer />
             </div>
+            <div className="section1" />
         </React.Fragment>
     )
 }
