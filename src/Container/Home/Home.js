@@ -18,30 +18,30 @@ const Home = () => {
 
     return (
         <React.Fragment>
-            <div>
-                <Header />
-                <Element id='home' name='home'>
-                    <Welcome />
-                </Element>
-                <Element id='bio' name='bio'>
-                    <Bio />
-                </Element>
-                <PieceArt />
-                <Element id='benefits' name='benefits'>
-                    <Benefit />
-                </Element>
+            {/* <div> */}
+            <Header />
+            <Element id='home' name='home'>
+                <Welcome />
+            </Element>
+            <Element id='bio' name='bio'>
+                <Bio />
+            </Element>
+            <PieceArt />
+            <Element id='benefits' name='benefits'>
+                <Benefit />
+            </Element>
 
-                <Diversity />
-                <Utilities />
-                <Points />
-                <FooterBee />
+            <Diversity />
+            <Utilities />
+            <Points />
+            <FooterBee />
 
-                <Element id='contact' name='contact'>
-                    <Contact />
-                </Element>
-                <Footer />
-            </div>
-            <div className="section1" />
+            <Element id='contact' name='contact'>
+                <Contact />
+            </Element>
+            <Footer />
+            {/* </div> */}
+            {/* <div className="section1" /> */}
         </React.Fragment>
     )
 }
