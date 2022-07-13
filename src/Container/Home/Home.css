@@ -27,7 +27,7 @@
 
 div#root::before {
     background-attachment: fixed;
-    /* background-image: url('../../assets/images/final_bg.png'); */
+     background-image: url('../../assets/images/final_bg.png'); 
     background-size: cover !important;
     height: 100%;
     left: 0;
@@ -38,7 +38,7 @@ div#root::before {
     z-index: -1;
     content: '';
     height: 500px;
-    background: black;
+    /* background: black; */
     width: 100%;
 }
 
@@ -47,6 +47,10 @@ div#root {
 }
 
 @media (max-width: 767px) {
+
+    div#root::before {
+        background-attachment: scroll;
+    }
 
     .loader {
         left: 44% !important;
