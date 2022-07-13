@@ -37,8 +37,6 @@ div#root::before {
     width: 100%;
     z-index: -1;
     content: '';
-    height: 500px;
-    /* background: black; */
     width: 100%;
 }
 
@@ -50,6 +48,15 @@ div#root {
 
     div#root::before {
         background-attachment: scroll;
+    height: 100%;
+    left: 0;
+    min-height: 1000px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    bottom: 0;
+    padding-bottom: 500px;
     }
 
     .loader {
