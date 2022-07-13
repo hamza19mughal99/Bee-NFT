@@ -24,16 +24,6 @@ const Header = () => {
 
     return (
         <header className="header-section">
-            <div className='top_header'>
-                <div className='container'>
-                    <p>
-                        <span><img src={InstaIcon} alt='insta' className='insta' /></span>
-                        |
-                        <span><img src={emailIcon} alt='email' className='mx-2 email' /></span>
-                        aysemelisolcay@gmail.com
-                    </p>
-                </div>
-            </div>
             <Navbar expand="lg">
                 <Container style={{ width: '90%' }}>
                     <Navbar.Brand href="#home"><img src={Logo} alt='logo' /></Navbar.Brand>

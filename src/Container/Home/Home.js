@@ -18,6 +18,16 @@ const Home = () => {
 
     return (
         <React.Fragment>
+            <div className='top_header'>
+                <div className='container'>
+                    <p>
+                        <span><img src={InstaIcon} alt='insta' className='insta' /></span>
+                        |
+                        <span><img src={emailIcon} alt='email' className='mx-2 email' /></span>
+                        aysemelisolcay@gmail.com
+                    </p>
+                </div>
+            </div>
             <div>
                 <Header />
                 <Element id='home' name='home'>
