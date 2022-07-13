@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth !important;
 }
 
@@ -16,6 +16,88 @@ body {
     min-height: 10000px;
 }
 
-img{
+img {
     max-width: 100%;
+}
+
+body .loading-overlay.show {
+    opacity: 1;
+}
+
+body .loading-overlay {
+    background-position: 50%;
+    background-size: cover;
+    transition: all 1s ease-out;
+}
+
+.loading-overlay {
+    align-items: center;
+    background: #f3f3f1;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000002;
+}
+
+/* ----------------------------------  */
+
+.animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    justify-content: center;
+    z-index: 100;
+    width: 100%;
+    animation: animatebg 10s linear infinite;
+}
+
+.animate {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #e0e0e0;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* @keyframes animatebg {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+} */
+
+.animate span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #39ff14;
+    margin-left: 10px;
+    margin-right: 10px;
 }

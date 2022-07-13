@@ -52,7 +52,6 @@ const Home = () => {
                 </Element>
                 <Footer />
             </div>
-            <div className="section1" />
         </React.Fragment>
     )
 }
