@@ -6,8 +6,8 @@ const App = () => {
 
     useEffect(() => {
         const timeline = gsap.timeline();
-        timeline.to(".animate", {
-            delay: 3,
+        timeline.to(".loader", {
+            delay: 2,
             duration: .5,
             opacity: 0
         });
@@ -35,12 +35,13 @@ const App = () => {
     return (
         <React.Fragment>
             <div class="animation">
+                {/* <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
                 <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
                 <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
                 <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
                 <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
-                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1>
+                <h1 class="animate">loading<span>loading</span>loading<span>loading</span></h1> */}
+                <div className="loader"></div>
             </div>
 
             <div className="home">

@@ -18,6 +18,22 @@
         background: #000000d6 !important;
         padding: 12px !important;
     }
+
+    .mob {
+        display: block !important;
+    }
+
+    .web {
+        display: none !important;
+    }
+}
+
+.mob {
+    display: none;
+}
+
+.web {
+    display: block;
 }
 
 .navbar-brand img {
@@ -45,4 +61,3 @@
     background-color: #73dcff;
     border: none !important;
 }
-

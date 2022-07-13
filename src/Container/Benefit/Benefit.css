@@ -84,7 +84,7 @@
 
     .benefit_text p {
         padding-right: 0;
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .benefit_text button {
@@ -106,7 +106,7 @@
 
     .benefit_img {
         position: absolute;
-        left: 20%;
+        left: 0%;
         top: -120px;
         width: 1000px;
         height: 200px;

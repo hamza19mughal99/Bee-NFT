@@ -39,11 +39,6 @@
     background-position: center;
 }
 
-.piece_text {
-    position: relative;
-    z-index: 2;
-}
-
 
 
 @media (max-width: 767px) {
@@ -58,14 +53,14 @@
 
     .piece_bg img {
         position: absolute;
-        right: 80px;
-        bottom: 0;
+        right: 15px;
+        bottom: 200px;
         height: 220px;
         max-width: 260px;
         background-size: cover;
         background-position: center;
     }
-
+    
     .piece_text {
         position: relative;
         z-index: 2;

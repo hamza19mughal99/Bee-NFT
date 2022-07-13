@@ -53,7 +53,7 @@ body .loading-overlay {
     display: flex;
     align-items: center;
     white-space: nowrap;
-    background-color: black;
+    background-color: #fff;
     color: white;
     overflow: hidden;
     justify-content: center;
@@ -95,9 +95,9 @@ body .loading-overlay {
     }
 } */
 
-.animate span {
+/* .animate span {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #39ff14;
     margin-left: 10px;
     margin-right: 10px;
-}
+} */
