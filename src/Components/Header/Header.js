@@ -7,74 +7,60 @@ let Link = Scroll.Link;
 
 const Header = () => {
 
-    useEffect(() => {
-        window.addEventListener('scroll', isSticky);
-        return () => {
-            window.removeEventListener('scroll', isSticky);
-        };
-    });
-
-    const isSticky = (e) => {
-        const header = document.querySelector('.header-section');
-        header.classList.add('is-sticky')
-    };
-
     return (
-        <React.Fragment>
-            <header className="header-section">
-                <Navbar expand="lg">
-                    <Container style={{ width: '90%' }}>
-                        <Navbar.Brand href="#home"><img src={Logo} alt='logo' /></Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
-                            <Nav className="mr-auto">
-                                <Link
-                                    to="home"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    className={'nav-link'}
-                                    activeClass='nav-link'
-                                >
-                                    Home
-                                </Link>
-                                <Link
-                                    to="bio"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    className={'nav-link'}
-                                    activeClass='nav-link'
-                                >
-                                    Bio
-                                </Link>
-                                <Link
-                                    to="benefits"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    className={'nav-link'}
-                                    activeClass='nav-link'
-                                >
-                                    Benefits
-                                </Link>
-                                <Link
-                                    to="contact"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    className={'nav-link'}
-                                    activeClass='nav-link'
-                                >
-                                    Contact
-                                </Link>
-                                <button className='get_touch_btn'>GET IN TOUCH</button>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
-            </header>
-        </React.Fragment>
+        <header className="header-section is-sticky">
+            <Navbar expand="lg">
+                <Container style={{ width: '90%' }}>
+                    <Navbar.Brand href="#home"><img src={Logo} alt='logo' /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
+                        <Nav className="mr-auto">
+                            <Link
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'nav-link'}
+                                activeClass='nav-link'
+                            >
+                                Home
+                            </Link>
+                            <Link
+                                to="bio"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'nav-link'}
+                                activeClass='nav-link'
+                            >
+                                Bio
+                            </Link>
+                            <Link
+                                to="benefits"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'nav-link'}
+                                activeClass='nav-link'
+                            >
+                                Benefits
+                            </Link>
+                            <Link
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className={'nav-link'}
+                                activeClass='nav-link'
+                            >
+                                Contact
+                            </Link>
+                            <button className='get_touch_btn'>GET IN TOUCH</button>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </header>
     );
 };
 export default Header;

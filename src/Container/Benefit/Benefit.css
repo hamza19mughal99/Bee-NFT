@@ -25,39 +25,34 @@
     background-position: center;
 }
 
-
-
 .welcome_benefit_head h1 {
     text-align: center;
     color: #fff;
     font-size: 60px;
     font-style: italic;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .welcome_benefit_head h1 span {
     color: #D9B71A;
 }
 
-.benefit_text {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    color: #fff;
-}
-
 .benefit {
-    padding: 750px 0 300px 0;
+    padding: 150px 0 100px 0;
+    color: #fff;
 }
 
 .benefit_text h1 {
     font-size: 45px;
     font-weight: 600;
+    font-style: italic;
 }
 
 .benefit_text p {
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 500;
+    margin-top: 15px;
 }
 
 .benefit_img img {

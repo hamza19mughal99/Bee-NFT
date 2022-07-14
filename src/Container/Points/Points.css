@@ -36,7 +36,7 @@
     margin-bottom: 10px;
     max-width: 900px;
     z-index: 2;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .points_main ul li::marker {

@@ -1,26 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react'
 import BioImg1 from "../../assets/images/1.png";
 import BioImg2 from "../../assets/images/3.png";
-import "./Bio.css";
+import "../Bio/Bio.css";
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Bio = () => {
+const Collection = () => {
 
     useEffect(() => {
 
         gsap.timeline({
             scrollTrigger: {
-                trigger: ".box-c",
+                trigger: ".coll1",
                 pin: true,
                 start: "center center",
                 end: "+=600",
                 onLeave: () => ScrollTrigger.clearScrollMemory()
             }
         })
-            .to(".box-c", {
+            .to(".coll1", {
                 opacity: 1,
                 duration: 0.5
             })
@@ -29,14 +29,14 @@ const Bio = () => {
     useEffect(() => {
         gsap.timeline({
             scrollTrigger: {
-                trigger: ".box-d",
+                trigger: ".coll2",
                 pin: true,
                 start: "center center",
                 end: "+=600",
                 onLeave: () => ScrollTrigger.clearScrollMemory()
             }
         })
-            .to(".box-d", {
+            .to(".coll2", {
                 opacity: 1,
                 duration: 0.5
             })
@@ -52,22 +52,19 @@ const Bio = () => {
             <div>
                 <div className="col-md-12" >
                     <div className="bio_text">
-                        <div className="box-c">
+                        <div className="coll1">
                             <div className="welcome_benefit_head">
-                                <h1> “ THE <span> ARTIST </span> ” </h1>
+                                <h1> “ The <span> Elastic Waves </span> <br /> Art  Collection ” </h1>
                             </div>
-                            <p>Melis Olcay is a Turkish artist from Istanbul. Although she has always had an immense
-                                interest in art, her artistic journey didn’t start until 2020.</p>
+                            <p>A unique collection of 1234 pieces of phenomenal elasticity, with 1111 available for open
+                                mint. </p>
+                            <button className='get_touch_btn'>Mint Now</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-12 bio_second_text" >
                     <div className="bio_text1">
-                        <div className="box-d">
-                            <p>Within these short years, she has individually crafted thousands of art pieces. Her talents,
-                                and aspirations bloomed into a form of self-expression. </p>
-                            <button className="get_touch_btn" >Learn More</button>
-                        </div>
+                        <p className='coll2'>From paint to gel to canvas to digital. Now she shares them with the world.</p>
                     </div>
                 </div>
             </div>
@@ -78,4 +75,5 @@ const Bio = () => {
         </div>
     )
 }
-export default Bio;
+
+export default Collection

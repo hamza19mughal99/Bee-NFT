@@ -51,8 +51,8 @@ const Diversity = () => {
                                 I believe the actual physical work and the uniqueness of the creation process are what
                                 differentiates this project and make it special.
                             </p>
+                            <button className='get_touch_btn'>GET IN TOUCH</button>
                         </div>
-                        <button className='get_touch_btn'>GET IN TOUCH</button>
                     </div>
                 </div>
             </div>

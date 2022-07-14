@@ -14,6 +14,7 @@ import Diversity from "../Diversity/Diversity";
 import Utilities from "../Utilities/Utilities";
 import Points from "../Points/Points";
 import FooterBee from "../FooterBee/FooterBee";
+import Collection from "../Collection/Collection";
 
 const Home = () => {
 
@@ -38,6 +39,7 @@ const Home = () => {
                     <Bio />
                 </Element>
                 <PieceArt />
+                <Collection />
                 <Element id='benefits' name='benefits'>
                     <Benefit />
                 </Element>

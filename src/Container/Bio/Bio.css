@@ -51,17 +51,18 @@
 .bio_text p,
 .bio_text1 p {
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 .bio_main {
-    /* display: flex; */
     padding: 100px 0;
 }
 
 .bio_text h1 {
     font-size: 45px;
     font-weight: 600;
+    font-style: italic;
 }
 
 .bio_text h6 {

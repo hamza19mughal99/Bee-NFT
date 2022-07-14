@@ -44,18 +44,12 @@ const Benefit = () => {
 
     return (
         <div className="benefit_main">
-            <div className="welcome_benefit_head">
-                <h1 className="bene_head">“ <span>Welcome</span> to <br />
-                    Elastic Waves <span>Art</span>”</h1>
-            </div>
-
             <div style={{ zIndex: '2' }}>
                 <img src={BioImg1} alt='bio-img' className="benefit_img1" />
             </div>
-
-            <div style={{ zIndex: '2' }}>
+            {/* <div style={{ zIndex: '2' }}>
                 <img src={BenefitImg} alt='benefit' className="benefit_img" />
-            </div>
+            </div> */}
 
             <div className="container benefit">
                 <div className="row align-items-center">

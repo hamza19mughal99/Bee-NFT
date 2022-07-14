@@ -27,6 +27,7 @@
 .mint h5 {
     font-size: 43px;
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .mint .progress_bar {
@@ -49,7 +50,7 @@
 .minting_start h6 {
     font-size: 30px;
     margin-top: 20px;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .count_down li {
