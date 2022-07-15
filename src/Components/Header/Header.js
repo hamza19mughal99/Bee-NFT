@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Logo from "../../assets/images/main_logo.png";
 import * as Scroll from 'react-scroll';

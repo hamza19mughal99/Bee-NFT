@@ -26,7 +26,7 @@ const Abundance = () => {
     return (
         <div className='container utilities_main'>
 
-            <div>
+            <div style={{zIndex: "-1"}}>
                 <img src={diversityImg} alt='diversity' className="diversity_img" />
             </div>
 

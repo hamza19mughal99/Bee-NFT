@@ -41,7 +41,6 @@ const PieceArt = () => {
                             <p>She has been lucky enough to have participated in many collaborative projects,
                                 as well as exhibiting in a solo capacity, which has solidified her reputation in the art world.
                                 If you would like to find out more about my process, get in touch.</p>
-                            <button className='get_touch_btn'>GET IN TOUCH</button>
                         </div>
                     </div>
                 </div>

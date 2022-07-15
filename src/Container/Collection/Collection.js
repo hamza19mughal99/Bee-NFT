@@ -24,9 +24,7 @@ const Collection = () => {
                 opacity: 1,
                 duration: 0.5
             })
-    }, [])
 
-    useEffect(() => {
         gsap.timeline({
             scrollTrigger: {
                 trigger: ".coll2",
