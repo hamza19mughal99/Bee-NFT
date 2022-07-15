@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import BioImg1 from "../../assets/images/1.png";
+import BioImg1 from "../../assets/images/nft8.png";
 import BioImg2 from "../../assets/images/3.png";
 import "./Bio.css";
 import gsap from 'gsap';

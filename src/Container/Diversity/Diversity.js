@@ -56,7 +56,6 @@ const Diversity = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

@@ -3,20 +3,20 @@
     position: relative;
 }
 
-.benefit_img {
+.benefit_img1 {
     position: absolute;
-    left: 40%;
-    top: 40%;
-    width: 1000px;
-    height: 245px;
-    max-width: 250px;
+    left: 0;
+    top: 120px;
+    width: 958px;
+    height: 380px;
+    max-width: 490px;
     background-size: cover;
     background-position: center;
 }
 
-.benefit_img1 {
+.abun_img1 {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 120px;
     width: 958px;
     height: 380px;

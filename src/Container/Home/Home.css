@@ -116,6 +116,17 @@ div#root {
 .poi {
     opacity: 0;
 }
+.abundance{
+    opacity: 0;
+}
+
+.coll2{
+    opacity: 0;
+}
+
+.coll1{
+    opacity: 0;
+}
 
 /* --------------------- */
 

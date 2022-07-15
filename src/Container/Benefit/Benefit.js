@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import BenefitImg from "../../assets/images/3.png";
 import benefitMain from "../../assets/images/nft3.png";
 import BioImg1 from "../../assets/images/1.png";
 import "./Benefit.css"
@@ -47,9 +46,6 @@ const Benefit = () => {
             <div style={{ zIndex: '2' }}>
                 <img src={BioImg1} alt='bio-img' className="benefit_img1" />
             </div>
-            {/* <div style={{ zIndex: '2' }}>
-                <img src={BenefitImg} alt='benefit' className="benefit_img" />
-            </div> */}
 
             <div className="container benefit">
                 <div className="row align-items-center">

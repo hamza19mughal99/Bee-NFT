@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Points.css';
-import PointImg1 from "../../assets/images/10.png";
-import PointImg2 from "../../assets/images/7.png";
+import PointImg1 from "../../assets/images/nft5.png";
+import PointImg2 from "../../assets/images/nft6.png";
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);

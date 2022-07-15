@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Utilities.css';
-import UtilityImg from '../../assets/images/10.png';
+import UtilityImg from '../../assets/images/nft7.png';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -32,11 +32,11 @@ const Utilities = () => {
       </div>
 
       <div className='utili my-3'>
-        <h1 > Utilities </h1>
+        <h1> “ Utilities ” </h1>
         <p>Supply<span>:</span> 1234<span>;</span> open mint<span>:</span> 1111Elastic Waves Utilities:</p>
 
         <div className='elastic_utilities'>
-          <h4 className='text-center'>Elastic Waves Utilities:</h4>
+          <h4 className='text-center'>“ <span> Elastic Waves </span> Utilities ”</h4>
         </div>
 
         <div className='my-4 utilities_text'>

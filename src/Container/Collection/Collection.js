@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import BioImg1 from "../../assets/images/1.png";
-import BioImg2 from "../../assets/images/3.png";
+import BioImg2 from "../../assets/images/nft9.png";
 import "../Bio/Bio.css";
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";

@@ -15,6 +15,7 @@ import Utilities from "../Utilities/Utilities";
 import Points from "../Points/Points";
 import FooterBee from "../FooterBee/FooterBee";
 import Collection from "../Collection/Collection";
+import Abundance from "../Abundance/Abundance";
 
 const Home = () => {
 
@@ -40,9 +41,12 @@ const Home = () => {
                 </Element>
                 <PieceArt />
                 <Collection />
+
                 <Element id='benefits' name='benefits'>
                     <Benefit />
                 </Element>
+
+                <Abundance />
 
                 <Diversity />
                 <Utilities />
