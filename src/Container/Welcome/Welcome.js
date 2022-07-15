@@ -1,5 +1,6 @@
 import React from "react";
 import WelcomeMain from "../../assets/images/bee-three.gif";
+
 import "./Welcome.css";
 import Timer from "../../Components/Countdown/Countdown";
 
