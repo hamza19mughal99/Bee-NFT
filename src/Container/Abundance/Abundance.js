@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import diversityImg from "../../assets/images/nft10.png";
 import gsap from 'gsap';
-import './Abundance.css';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -32,7 +31,7 @@ const Abundance = () => {
             </div>
 
             <div className='my-4 utilities_text'>
-                <div className="abundance">
+                <div className="abundance text-center">
                     <p>An abundance of elastic and creative opportunities come to the holders of the collection.
                         Meeting the artist, having your art showcased, and many many more.
                     </p>

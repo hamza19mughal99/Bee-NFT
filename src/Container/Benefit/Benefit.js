@@ -12,22 +12,6 @@ const Benefit = () => {
     useEffect(() => {
         gsap.timeline({
             scrollTrigger: {
-                trigger: ".bene_head",
-                pin: true,
-                start: "center center",
-                end: "+=600",
-                onLeave: () => ScrollTrigger.clearScrollMemory()
-            }
-        })
-            .to(".bene_head", {
-                opacity: 1,
-                duration: 0.5
-            })
-    },[])
-
-    useEffect(() => {
-        gsap.timeline({
-            scrollTrigger: {
                 trigger: ".bene",
                 pin: true,
                 start: "center center",
