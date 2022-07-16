@@ -7,7 +7,7 @@ const App = () => {
     useEffect(() => {
         const timeline = gsap.timeline();
         timeline.to(".loader", {
-            delay: 2,
+            delay: window.onload,
             duration: .5,
             opacity: 0
         });
