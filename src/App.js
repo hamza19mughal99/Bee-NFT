@@ -5,15 +5,16 @@ import gsap from 'gsap';
 const App = () => {
 
     useEffect(() => {
+
         const timeline = gsap.timeline();
         timeline.to(".loader", {
-            delay: window.onload,
-            duration: .5,
+            delay: window.onloadeddata,
+            duration: window.onloadeddata,
             opacity: 0
         });
         timeline.to(".animation", {
-            delay: 1,
-            duration: 1,
+            delay: window.onloadeddata,
+            duration: window.onloadeddata,
             y: "100%",
             ease: "power4.out"
         });
