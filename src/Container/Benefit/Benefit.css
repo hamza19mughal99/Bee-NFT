@@ -6,7 +6,7 @@
 .benefit_img1 {
     position: absolute;
     left: 0;
-    top: 120px;
+    top: 350px;
     width: 958px;
     height: 380px;
     max-width: 490px;
@@ -88,7 +88,24 @@
     }
 }
 
+.web {
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+
 @media (max-width: 767px) {
+
+    .web {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+
     .benefit_img1 {
         position: absolute;
         left: 0;
@@ -111,7 +128,7 @@
         background-position: center;
     }
 
-    .bio_last_img{
+    .bio_last_img {
         width: 290px;
         margin-top: 100px;
     }

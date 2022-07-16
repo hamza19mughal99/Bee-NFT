@@ -25,30 +25,48 @@
 }
 
 .piece_bg {
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
 
 .piece_bg img {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 500px;
     height: 350px;
     max-width: 400px;
     background-size: cover;
     background-position: center;
+    z-index: -1;
+}
+
+.web{
+    display: block;
+}
+
+.mob{
+    display: none;
 }
 
 
-
 @media (max-width: 767px) {
+
+    .web{
+        display: none;
+    }
+    
+    .mob{
+        display: block;
+    }
+
     .piece_art .first_img {
         max-width: 275px;
         margin-bottom: 130px;
     }
 
     .piece_text p {
-        font-size: 18px;
+        font-size: 17px;
+        padding-top: 60px;
     }
 
     .piece_bg img {
