@@ -14,7 +14,7 @@ const App = () => {
         });
         timeline.to(".animation", {
             delay: 2,
-            duration: window.onloadeddata,
+            duration: 2,
             y: "100%",
             ease: "power4.out"
         });
