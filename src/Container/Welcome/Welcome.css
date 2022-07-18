@@ -6,6 +6,14 @@
     height: 90vh;
 }
 
+.gif_animate{
+    text-align: center;
+}
+
+.gif_animate img{
+    width: 550px;
+}
+
 .welcome_text {
     padding-top: 45px;
     display: flex;

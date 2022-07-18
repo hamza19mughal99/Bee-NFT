@@ -1,5 +1,5 @@
 import React from "react";
-import WelcomeMain from "../../assets/images/bee_animation.gif";
+import WelcomeMain from "../../assets/images/bee_animate.gif";
 import "./Welcome.css";
 import Timer from "../../Components/Countdown/Countdown";
 
@@ -22,7 +22,7 @@ const Welcome = () => {
                             <Timer />
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 gif_animate">
                         <img src={WelcomeMain} alt='welcome' />
                     </div>
                 </div>
